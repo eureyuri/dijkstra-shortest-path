@@ -28,7 +28,7 @@ public class FindMinPath {
 	 */
 	public FindMinPath() throws Exception {
 		minQ = new MinPriorityQueue();
-		gw = new GraphWrapper(false);
+		gw = new GraphWrapper(true);
 
 		GraphNode goal = findShortestPath(gw);
 

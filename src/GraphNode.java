@@ -29,8 +29,8 @@ public class GraphNode implements Serializable {
 		hasEast = false;
 		isGoalNode = goal;
 	}
-	
-	// DONT USE THESE METHODS
+
+
 	public void setNorthWeight(int northWeight) {
 		this.northWeight = northWeight;
 	}
@@ -69,8 +69,6 @@ public class GraphNode implements Serializable {
 		this.setWestWeight(weight);
 	}
 
-	// You can use these:
-	
 	public int getSouthWeight() {
 		return southWeight;
 	}

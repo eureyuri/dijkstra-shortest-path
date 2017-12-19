@@ -5,7 +5,6 @@ import java.nio.file.Path;
 
 import java.util.*;
 
-// Don't modify this file
 public class GraphWrapper {
 	private GraphNode home;
 	private GraphNode[][] index;
